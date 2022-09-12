@@ -1,6 +1,6 @@
 # Flows
 
-Suspend function returns a single object
+--> Suspend function returns a single object
 
 suspend fun getUser() : User
 {
@@ -11,7 +11,7 @@ return user
 
 }
 
-
+------------------------------------
 
 suspend fun getUser() : List<User>
 {
