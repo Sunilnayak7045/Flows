@@ -95,5 +95,9 @@ disadvantage :
    --> channel.send is a suspending function... so we use CoroutineScope & dispatcher.main enables to runs on main thread
 
 
+--> flows are Cold. Cold means it will produce only if there is consumer. 
+
+![capture_5](https://user-images.githubusercontent.com/47368515/189884266-04a0bb74-08e7-444a-91b4-f3b16816d59d.PNG)
+
 
 
