@@ -99,5 +99,12 @@ disadvantage :
 
 ![capture_5](https://user-images.githubusercontent.com/47368515/189884266-04a0bb74-08e7-444a-91b4-f3b16816d59d.PNG)
 
+--> Method to stop flows in between by using job
+  
+  ![Capture_6](https://user-images.githubusercontent.com/47368515/189892945-115b9e45-f165-414e-a9c8-859bd6ed8271.PNG)
+
+  o/p will be 1 , 2 , 3 because producer produces after 1 sec and job gets cancel after 3.5 sec
+  
+  ![Capture_7](https://user-images.githubusercontent.com/47368515/189893656-c0e48a47-c64d-40a5-91cf-b9278ea667e3.PNG)
 
 
