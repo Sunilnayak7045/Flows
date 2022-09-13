@@ -2,6 +2,13 @@
 
 --> Suspend function returns a single object
 
+![capture_3](https://user-images.githubusercontent.com/47368515/189871400-6462c81d-31dd-40f9-89cd-c4f71ff9fad6.png)
+
+--> getUserNames() fun will get suspended unless and until all the user get added to the list.
+
+![Capture_1](https://user-images.githubusercontent.com/47368515/189870973-db27fd6c-11be-4574-bcf5-b974e7d3914e.PNG)
+
+
 suspend fun getUser() : User
 {
 
@@ -34,6 +41,10 @@ Suspend functions work great for things like :
 
 ------------------------------------
 What are streams?
+  
+  ![Capture_2](https://user-images.githubusercontent.com/47368515/189871133-b2fd9fe6-9041-4244-88ec-56541c395614.PNG)
+  
+  --> IN case of streams as soon as user 1 gets the data it will return and so on... & In case of coroutines, getUserNames() fun will get suspended unless and until all the user get added to the list.
 
 But there are scenarios where you have streams of data : 
 
