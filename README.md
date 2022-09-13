@@ -107,4 +107,12 @@ disadvantage :
   
   ![Capture_7](https://user-images.githubusercontent.com/47368515/189893656-c0e48a47-c64d-40a5-91cf-b9278ea667e3.PNG)
 
+  --> Case : when there is 1 producer & 2 consumer in which 2nd consumer starts at delay of 2.5 sec i.e data is never lost 
+  
+  ![Capture_8](https://user-images.githubusercontent.com/47368515/189898596-d815aebe-5813-4e3a-8087-a1d7994572a2.PNG)
+
+  ![Capture_9](https://user-images.githubusercontent.com/47368515/189898656-7928aecd-d577-4864-9b63-dea4e2c3a0c4.PNG)
+
+  
+  
 
