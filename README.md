@@ -2,7 +2,7 @@
 
 --> Suspend function returns a single object
 
-![capture_3](https://user-images.githubusercontent.com/47368515/189871400-6462c81d-31dd-40f9-89cd-c4f71ff9fad6.png)
+![capture_3](https://user-images.githubusercontent.com/47368515/189876487-0827afeb-2b72-4403-a1b1-2a524467ce89.png)
 
 --> getUserNames() fun will get suspended unless and until all the user get added to the list.
 
@@ -86,6 +86,13 @@ Cold Stream prevents Resource Wastage
 disadvantage : 
 1) Resource Wastage
 2) Manual Close (i.e mechanism is reqd to tell when we have to stop the data flow).
+  
+  
+--> Example : 
+  
+  ![capture_4](https://user-images.githubusercontent.com/47368515/189876916-5e99e7ab-0657-4749-89b4-6e26ee171c0f.png)
+ 
+   --> channel.send is a suspending function... so we use CoroutineScope & dispatcher.main enables to runs on main thread
 
 
 
