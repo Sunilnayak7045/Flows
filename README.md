@@ -112,7 +112,46 @@ disadvantage :
   ![Capture_8](https://user-images.githubusercontent.com/47368515/189898596-d815aebe-5813-4e3a-8087-a1d7994572a2.PNG)
 
   ![Capture_9](https://user-images.githubusercontent.com/47368515/189898656-7928aecd-d577-4864-9b63-dea4e2c3a0c4.PNG)
+  
+  --> flows has some events ( e.g 1 : Whenever the flows start we need events to execute some sort of code.
+e.g 2 : Whenever the flows get completes, then all items get emitted we need events to execute some sort of code.)
 
+
+--> .onEach operator : the value which is about to emit / which is going to emit.
+
+
+--> .onStart operator : loader / progress bar can be showed.
+
+  ![Capture_10](https://user-images.githubusercontent.com/47368515/190066972-adbe2c82-f872-4c3f-b386-2ef93717da26.PNG)
+  
+  ![Capture_11](https://user-images.githubusercontent.com/47368515/190067001-2af9ffb7-52d5-46e7-bee1-6938be08812c.PNG)
+  
+  --> onStart & onComplete we emit manually / add the loader on  onStart
+  
+  ![Capture_12](https://user-images.githubusercontent.com/47368515/190068535-819a4a46-ab0e-4f37-863b-b3b50e87e7a6.PNG)
+
+  
+  ![Capture_13](https://user-images.githubusercontent.com/47368515/190068566-72e2621f-bc2d-42d6-8184-cabdcf1e2789.PNG)
+
+  
+--> Flows operator :
+
+Terminal operator and non terminal operator
+
+What are Terminal Operators?
+
+  Terminal operators are the operators that actually start the flow by connecting the flow , Here .collect is the Terminal Operator
+
+
+--> .first : Operators to get the first value and to ensure that a flow emits a single value. i.e terminal operator
+  
+  
+![Capture_14](https://user-images.githubusercontent.com/47368515/190071177-405d6952-12af-4ff3-97ac-ad430c623960.PNG)
+  
+  ![Capture_15](https://user-images.githubusercontent.com/47368515/190071194-48ac3908-8bff-44fd-b267-0e319e27b3a6.PNG)
+
+
+  
   
   
 
