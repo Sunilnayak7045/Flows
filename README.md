@@ -151,7 +151,27 @@ What are Terminal Operators?
   ![Capture_15](https://user-images.githubusercontent.com/47368515/190071194-48ac3908-8bff-44fd-b267-0e319e27b3a6.PNG)
 
 
-  
+--> Non terminal
+
+eg .map(convert one form of data to another form) , .filter ( conditional statement )
+
+![Capture_16](https://user-images.githubusercontent.com/47368515/190390347-3edd4269-ef75-46de-a3a1-635a0dd4faab.PNG)
+
+eg : case where we want title as upper-case 
+
+list.asFlow() --> It's an builder which convert list to flow.
+
+![Capture_17](https://user-images.githubusercontent.com/47368515/190391474-ed098ac4-5695-48fd-a6a2-3af14c8a0c55.PNG)
+
+![Capture_18](https://user-images.githubusercontent.com/47368515/190391503-2ab19fa2-ded3-4431-82e7-b6a9c8d40982.PNG)
+
+-->  .filter ( conditional statement ) , isActive is true then log
+
+![Capture_19](https://user-images.githubusercontent.com/47368515/190391549-49232288-48af-4316-9a87-a21572291258.PNG)
+
+
+
+
   
   
 
