@@ -172,9 +172,7 @@ list.asFlow() --> It's an builder which convert list to flow.
 
 --> Time required by collector
   
-  ![Capture_20](https://user-images.githubusercontent.com/47368515/190394026-6c2d1420-3251-49de-87cb-cf1ff3175d0c.PNG)
+  ![Capture_21](https://user-images.githubusercontent.com/47368515/190403216-37603000-4967-40d0-8e89-ab9aa603a9b0.PNG)
 
-
-  
   
 
